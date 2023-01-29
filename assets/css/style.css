@@ -2867,56 +2867,57 @@ hero-btn {
     }
 }
 
-.slider-area .hero__caption h1 {
+.carousel-caption .hero__caption h1 {
     font-size: 95px;
     font-weight: 600;
     margin-bottom: 14px;
     color: #fff;
     line-height: 95px;
     text-transform: capitalize;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    top: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .slider-area .hero__caption h1 {
+    .carousel-caption .hero__caption h1 {
         font-size: 60px;
         line-height: 1.2
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .slider-area .hero__caption h1 {
+    .carousel-caption .hero__caption h1 {
         font-size: 50px;
         line-height: 1.2
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .slider-area .hero__caption h1 {
+    .carousel-caption .hero__caption h1 {
         font-size: 35px;
         line-height: 1.2
     }
 }
 
 @media (max-width: 575px) {
-    .slider-area .hero__caption h1 {
+    .carousel-caption .hero__caption h1 {
         font-size: 32px;
         line-height: 1.2
     }
 }
 
-.slider-area .hero__caption h1 span {
+.carousel-caption .hero__caption h1 span {
     color: #1EA0EA
 }
 
-.slider-area form.search-box {
+.carousel-caption form.search-box {
     display: flex;
     flex-wrap: wrap;
     border-radius: 50px;
     margin-bottom: 15px
 }
 
-.slider-area form.search-box .input-form {
+.carousel-caption form.search-box .input-form {
     width: 53%;
     position: relative;
     overflow: hidden
@@ -3110,7 +3111,8 @@ hero-btn {
 }
 
 .about-low-area .about-img .about-font-img {
-    position: absolute;
+    /* position: absolute; */
+    text-align: center;
     z-index: 1;
     right: 47px;
     top: 0px
