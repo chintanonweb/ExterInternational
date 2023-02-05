@@ -21,7 +21,7 @@
 }
 
 .theme-bg {
-    background: #1EA0EA
+    background: #1da0eb
 }
 
 .brand-bg {
@@ -41,11 +41,11 @@
 }
 
 .theme-color {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .orange-color {
-    color: #ff5f13;
+    color: #FA873c;
 }
 
 .unordered-list li.no-before:before {
@@ -54,25 +54,25 @@
 
 .boxed-btn {
     background: #fff;
-    color: #1EA0EA !important;
+    color: #1da0eb !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Teko", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #1EA0EA;
+    border: 1px solid #1da0eb;
     letter-spacing: 3px;
     text-align: center;
-    color: #1EA0EA;
+    color: #1da0eb;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #1EA0EA;
+    background: #1da0eb;
     color: #fff !important;
-    border: 1px solid #1EA0EA
+    border: 1px solid #1da0eb
 }
 
 .boxed-btn:focus {
@@ -402,14 +402,14 @@ hr {
 }
 
 .btn {
-    background: #1EA0EA;
-    padding: 27px 44px;
+    background: #1da0eb;
+    padding: 25px 28px;
     text-transform: uppercase;
     font-family: "Barlow", sans-serif;
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 5px;
     -moz-user-select: none;
     font-weight: 400;
@@ -462,7 +462,7 @@ hr {
 
 .submit-btn {
     width: 100%;
-    background: #1EA0EA;
+    background: #1da0eb;
     padding: 19px 44px;
     color: #fff;
     cursor: pointer;
@@ -543,7 +543,7 @@ hero-btn {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #1EA0EA;
+    background: #1da0eb;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -564,7 +564,7 @@ hero-btn {
 
 #scrollUp,
 #back-top {
-    background: #1EA0EA;
+    background: #1da0eb;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -1998,7 +1998,7 @@ hero-btn {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #1EA0EA;
+    border-top-color: #1da0eb;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -2406,41 +2406,39 @@ hero-btn {
 }
 
 .footer-padding {
-    padding-top: 105px;
-    padding-bottom: 25px
+    padding-top: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-padding {
-        padding-top: 105px;
-        padding-bottom: 25px
+        padding-top: 50px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-padding {
-        padding-top: 100px;
+        padding-top: 40px;
         padding-bottom: 25px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .footer-padding {
-        padding-top: 80px;
+        padding-top: 30px;
         padding-bottom: 0px
     }
 }
 
 @media (max-width: 575px) {
     .footer-padding {
-        padding-top: 80px;
+        padding-top: 20px;
         padding-bottom: 0px
     }
 }
 
 @media (max-width: 575px) {
     .section-title {
-        margin-bottom: 50px
+        margin-bottom: 20px
     }
 }
 
@@ -2451,9 +2449,9 @@ hero-btn {
 }
 
 .section-title span {
-    font-size: 18px;
+    font-size: 20px;
     display: block;
-    color: #1EA0EA;
+    color: #1da0eb;
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 17px
@@ -2525,7 +2523,7 @@ hero-btn {
 }
 
 .theme-bg {
-    background: #1EA0EA
+    background: #1da0eb
 }
 
 .brand-bg {
@@ -2545,7 +2543,7 @@ hero-btn {
 }
 
 .theme-color {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2567,7 +2565,7 @@ hero-btn {
 }
 
 .header-area {
-    background: #000c20
+    background: #fff
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2594,10 +2592,9 @@ hero-btn {
 }
 
 .header-area .header-top .header-info-left ul li {
-    color: #7b8693;
     display: inline-block;
     margin-right: 70px;
-    font-size: 14px
+    font-size: 16px
 }
 
 .header-area .header-top .header-info-left ul li:last-child {
@@ -2613,13 +2610,14 @@ hero-btn {
 }
 
 .header-area .header-top .header-info-right .header-social li a {
-    color: #7b8693;
-    font-size: 14px;
-    padding-left: 25px
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 18px;
 }
 
 .header-area .header-top .header-info-right .header-social li a:hover {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .main-header {
@@ -2640,17 +2638,22 @@ hero-btn {
 }
 
 .main-header .main-menu ul li a {
-    color: #fff;
-    font-weight: 400;
-    padding: 39px 19px;
+    color: #000;
+    font-weight: bold;
+    padding: 16px 20px;
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
     text-transform: capitalize
+}
+
+.main-header .main-menu ul li a.active {
+    color: #1da0eb;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2660,7 +2663,7 @@ hero-btn {
 }
 
 .main-header .main-menu ul li:hover>a {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .main-header .main-menu ul ul.submenu {
@@ -2673,7 +2676,7 @@ hero-btn {
     opacity: 0;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
     padding: 17px 0;
-    border-top: 5px solid #1EA0EA;
+    border-top: 5px solid #1da0eb;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -2693,7 +2696,7 @@ hero-btn {
 }
 
 .main-header .main-menu ul ul.submenu>li>a:hover {
-    color: #1EA0EA;
+    color: #1da0eb;
     background: none;
     padding-left: 13px !important
 }
@@ -2734,7 +2737,7 @@ hero-btn {
 }
 
 .header-sticky.sticky-bar {
-    background: #000
+    background: #fff
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
@@ -2776,7 +2779,7 @@ hero-btn {
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #1EA0EA !important
+    background-color: #1da0eb !important
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav {
@@ -2786,7 +2789,7 @@ hero-btn {
 
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav a {
@@ -2832,7 +2835,7 @@ hero-btn {
 
 .slider-height2 {
     background-image: url(../img/hero/hero2.jpg);
-    min-height: 460px;
+    min-height: 350px;
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -2868,26 +2871,27 @@ hero-btn {
 }
 
 .carousel-caption .hero__caption h1 {
-    font-size: 95px;
+    font-size: 70px;
     font-weight: 600;
     margin-bottom: 14px;
     color: #fff;
-    line-height: 95px;
+    line-height: 70px;
     text-transform: capitalize;
     margin-bottom: 40px;
     top: 20px;
+    text-align: left;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .carousel-caption .hero__caption h1 {
-        font-size: 60px;
+        font-size: 40px;
         line-height: 1.2
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .carousel-caption .hero__caption h1 {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 1.2
     }
 }
@@ -2907,7 +2911,7 @@ hero-btn {
 }
 
 .carousel-caption .hero__caption h1 span {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .carousel-caption form.search-box {
@@ -2991,7 +2995,7 @@ hero-btn {
 .slider-area form.search-box .search-form a {
     width: 100%;
     height: 60px;
-    background: #1EA0EA;
+    background: #1da0eb;
     font-size: 20px;
     line-height: 1;
     text-align: center;
@@ -3081,7 +3085,7 @@ hero-btn {
 }
 
 .about-low-area .about-caption p {
-    font-size: 16px;
+    font-size: 20px;
     color: #64676c;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -3177,7 +3181,7 @@ hero-btn {
 }
 
 .our-info-area .single-info .info-icon span {
-    color: #1EA0EA;
+    color: #1da0eb;
     font-size: 44px;
     margin-bottom: 0;
     display: block
@@ -3232,7 +3236,7 @@ hero-btn {
     content: "";
     width: 100%;
     height: 0;
-    background: #1EA0EA;
+    background: #1da0eb;
     transition: .6s;
     bottom: 0;
     left: 0;
@@ -3241,7 +3245,7 @@ hero-btn {
 }
 
 .categories-area .single-cat .cat-icon span {
-    color: #1EA0EA;
+    color: #1da0eb;
     font-size: 50px;
     margin-bottom: 30px;
     display: block
@@ -3275,7 +3279,7 @@ hero-btn {
 .categories-area .single-cat .cat-cap p {
     margin-bottom: 36px;
     color: #57667e;
-    font-size: 16px;
+    font-size: 20px;
     -webkit-transition: all .2s ease-out 0s;
     -moz-transition: all .2s ease-out 0s;
     -ms-transition: all .2s ease-out 0s;
@@ -3502,13 +3506,13 @@ hero-btn {
 }
 
 .contact-form-area .contact-form-wrapper form.contact-form .radio-wrapper .select-radio .radio input[type="radio"]:checked+.radio-label:before {
-    background-color: #1EA0EA;
+    background-color: #1da0eb;
     box-shadow: inset 0 0 0 4px #f4f4f4
 }
 
 .contact-form-area .contact-form-wrapper form.contact-form .radio-wrapper .select-radio .radio input[type="radio"]:focus+.radio-label:before {
     outline: none;
-    border-color: #1EA0EA
+    border-color: #1da0eb
 }
 
 .contact-form-area .contact-form-wrapper form.contact-form .radio-wrapper .select-radio .radio input[type="radio"]:disabled+.radio-label:before {
@@ -3558,7 +3562,7 @@ hero-btn {
 }
 
 .team-area .single-team .team-caption h3 a:hover {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .team-area .single-team .team-caption p {
@@ -3576,7 +3580,7 @@ hero-btn {
 }
 
 .team-area .single-team:hover .team-caption {
-    background: #1EA0EA;
+    background: #1da0eb;
     bottom: 0
 }
 
@@ -3697,8 +3701,8 @@ hero-btn {
 }
 
 .h1-testimonial-active button.slick-arrow:hover {
-    border: 1px solid #1EA0EA;
-    color: #1EA0EA
+    border: 1px solid #1da0eb;
+    color: #1da0eb
 }
 
 .h1-testimonial-active button.slick-next {
@@ -3775,7 +3779,7 @@ hero-btn {
 }
 
 .footer-area {
-    background: #121212
+    background: #fff;
 }
 
 .footer-area .footer-heading {
@@ -3785,7 +3789,7 @@ hero-btn {
 }
 
 .footer-area .footer-heading .wantToWork-caption h2 {
-    color: #fff;
+    color: #000;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -3811,7 +3815,7 @@ hero-btn {
 }
 
 .footer-area .footer-heading .contact-number {
-    color: #1EA0EA;
+    color: #1da0eb;
     font-size: 36px;
     font-weight: 700
 }
@@ -3846,8 +3850,9 @@ hero-btn {
     line-height: 1.8;
     margin-bottom: 30px;
     padding-right: 0;
-    color: #c4c4c4;
-    font-size: 14px
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3875,37 +3880,37 @@ hero-btn {
 }
 
 .footer-area .footer-top .single-footer-caption .footer-title h4 {
-    color: #fff;
+    color: #000;
     font-family: "Barlow", sans-serif;
     font-size: 18px;
-    margin-bottom: 38px;
+    margin-bottom: 18px;
     font-weight: 500;
     text-transform: uppercase
 }
 
 .footer-area .footer-top .single-footer-caption .footer-title ul li {
-    color: #bbbcbc;
+    /* color: #bbbcbc; */
     margin-bottom: 15px;
     text-transform: capitalize
 }
 
 .footer-area .footer-top .single-footer-caption .footer-title ul li a {
-    color: #868c98;
+    color: #000;
     font-weight: 300
 }
 
 .footer-area .footer-top .single-footer-caption .footer-title ul li a:hover {
-    color: #1EA0EA;
+    color: #1da0eb;
     padding-left: 5px
 }
 
 .footer-area .footer-bottom {
-    padding-bottom: 25px;
-    padding-top: 20px
+    /* padding-bottom: 25px;
+    padding-top: 20px */
 }
 
 .footer-area .footer-bottom .footer-copy-right p {
-    color: #bbbcbc;
+    /* color: #bbbcbc; */
     font-weight: 300;
     font-size: 16px;
     line-height: 2;
@@ -3913,15 +3918,15 @@ hero-btn {
 }
 
 .footer-area .footer-bottom .footer-copy-right p i {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .footer-area .footer-bottom .footer-copy-right p a {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .footer-area .footer-social a {
-    color: #848493;
+    color: #000;
     font-size: 18px;
     text-align: center;
     margin-left: 24px
@@ -3932,7 +3937,7 @@ hero-btn {
 }
 
 .footer-area .footer-social a:hover {
-    color: #fff
+    color: #1da0eb
 }
 
 .hero-caption span {
@@ -3950,7 +3955,7 @@ hero-btn {
     content: "";
     width: 75px;
     height: 3px;
-    background: #1EA0EA;
+    background: #1da0eb;
     left: 0;
     top: 52%;
     transform: translateY(-50%)
@@ -4006,7 +4011,7 @@ hero-btn {
 }
 
 .home-blog-area .home-blog-single .blog-caption .blog-date span {
-    color: #1EA0EA;
+    color: #1da0eb;
     font-size: 32px;
     font-weight: 700;
     line-height: 1;
@@ -4087,7 +4092,7 @@ hero-btn {
 }
 
 .home-blog-area .home-blog-single .blog-caption .blog-cap h3 a:hover {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4126,7 +4131,7 @@ hero-btn {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #1EA0EA 0%, #1EA0EA 99%);
+    background: -webkit-linear-gradient(131deg, #1da0eb 0%, #1da0eb 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -4573,7 +4578,7 @@ hero-btn {
 }
 
 .blog_details a:hover {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .blog_details h2 {
@@ -4631,7 +4636,7 @@ hero-btn {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #1EA0EA;
+    background-color: #1da0eb;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -4713,7 +4718,7 @@ hero-btn {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #1EA0EA;
+    background: #1da0eb;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -4831,7 +4836,7 @@ hero-btn {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #1EA0EA;
+    background: #1da0eb;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -5042,7 +5047,7 @@ hero-btn {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #1EA0EA
+    color: #1da0eb
 }
 
 .single-post-area .blog-author p {
@@ -5341,10 +5346,11 @@ hero-btn {
 }
 
 .contact-info .media-body h3 {
-    font-size: 16px;
+    font-family: "Barlow", sans-serif;
     margin-bottom: 0;
-    font-size: 16px;
-    color: #2a2a2a
+    font-size: 20px;
+    color: #2a2a2a;
+    font-weight: bold;
 }
 
 .contact-info .media-body h3 a:hover {
@@ -5356,7 +5362,7 @@ hero-btn {
 }
 
 .contact-title {
-    font-size: 27px;
+    font-size: 42px;
     font-weight: 600;
     margin-bottom: 20px
 }
@@ -5432,18 +5438,18 @@ hero-btn {
 }
 
 .contact-section {
-    padding: 130px 0 100px
+    padding: 80px 0 10px
 }
 
 @media (max-width: 991px) {
     .contact-section {
-        padding: 70px 0 40px
+        padding: 50px 0 10px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .contact-section {
-        padding: 80px 0 50px
+        padding: 50px 0 10px
     }
 }
 
@@ -6087,7 +6093,7 @@ del {
 }
 
 .progress-table .table-row .percentage .progress .progress-bar.color-3 {
-    background-color: #f09359
+    background-color: #fa873c
 }
 
 .progress-table .table-row .percentage .progress .progress-bar.color-4 {
@@ -6130,15 +6136,14 @@ del {
 }
 
 .unordered-list li:before {
-    content: "";
     position: absolute;
     width: 14px;
     height: 14px;
-    border: 3px solid #1f2b7b;
-    background: #fff;
-    top: 9px;
     left: 0;
-    border-radius: 50%
+    content: '\2713';
+    display: inline-block;
+    color: #fff;
+    padding: 0 6px 0 0;
 }
 
 .ordered-list {
@@ -6275,7 +6280,7 @@ del {
 
 .single-input-secondary:focus {
     outline: none;
-    border: 1px solid #f09359
+    border: 1px solid #fa873c
 }
 
 .default-switch {
@@ -6830,4 +6835,37 @@ del {
 
 .switch-wrap {
     margin-bottom: 10px
+}
+
+.choice-section {
+    font-size: 24px;
+}
+
+.hovereffect {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+}
+
+.hovereffect img {
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	display: block;
+	position: relative;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.img-blur {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
 }
