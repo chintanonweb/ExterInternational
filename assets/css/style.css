@@ -3171,6 +3171,14 @@ hero-btn {
     }
 }
 
+.slider-text-bg {
+    box-shadow: 10px 0 0px 0px #edc330, -10px 0 0px 0px #edc330;
+    padding: 10px 40px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .4);
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .our-info-area {
     background: #f9f9f9
 }
@@ -6842,30 +6850,30 @@ del {
 }
 
 .hovereffect {
-	width: 100%;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	cursor: default;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
 }
 
 .hovereffect img {
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	display: block;
-	position: relative;
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .hovereffect:hover img {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
 
 .img-blur {
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
