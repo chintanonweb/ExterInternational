@@ -2173,14 +2173,14 @@ hero-btn {
 }
 
 .testimonial-padding {
-    padding-top: 90px;
-    padding-bottom: 70px
+    padding-top: 100px;
+    padding-bottom: 85px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .testimonial-padding {
-        padding-top: 90px;
-        padding-bottom: 70px
+        padding-top: 100px;
+    padding-bottom: 85px
     }
 }
 
@@ -2588,7 +2588,8 @@ hero-btn {
 
 .header-area .header-top {
     border-bottom: 1px solid #2d2d2d;
-    padding: 9px 0px
+    background-color: #1da0eb;
+    color: #fff;
 }
 
 .header-area .header-top .header-info-left ul li {
@@ -2610,7 +2611,6 @@ hero-btn {
 }
 
 .header-area .header-top .header-info-right .header-social li a {
-    color: #000;
     font-size: 16px;
     font-weight: bold;
     padding-left: 18px;
@@ -2704,7 +2704,7 @@ hero-btn {
 .main-header ul>li:hover>ul.submenu {
     visibility: visible;
     opacity: 1;
-    top: 100%
+    top: 111%
 }
 
 .header-transparent {
@@ -2746,19 +2746,19 @@ hero-btn {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-sticky.sticky-bar.sticky {
-        padding: 15px 0px
+        padding: 15px 5px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-sticky.sticky-bar.sticky {
-        padding: 15px 0px
+        padding: 15px 5px
     }
 }
 
 @media (max-width: 575px) {
     .header-sticky.sticky-bar.sticky {
-        padding: 15px 0px
+        padding: 15px 5px
     }
 }
 
@@ -2877,7 +2877,7 @@ hero-btn {
     color: #fff;
     line-height: 70px;
     text-transform: capitalize;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     top: 20px;
     text-align: left;
 }
@@ -3198,10 +3198,13 @@ hero-btn {
 .our-info-area .single-info .info-caption {
     padding-left: 20px
 }
+.our-info-area .single-info .info-caption h2{
+    font-size: 3rem;
+}
 
 .our-info-area .single-info .info-caption p {
     color: #677294;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 0
 }
@@ -3223,7 +3226,12 @@ hero-btn {
 .categories-area .single-cat {
     border: 1px solid #e1ebf7;
     border-radius: 6px;
-    padding: 85px 22px;
+    padding: 10px;
+    height: 320px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     -webkit-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     -ms-transition: all .4s ease-out 0s;
@@ -3252,10 +3260,14 @@ hero-btn {
     border-radius: 6px
 }
 
+.categories-area .single-cat .cat-icon {
+    height: 100px;
+}
+
 .categories-area .single-cat .cat-icon span {
     color: #1da0eb;
     font-size: 50px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     display: block
 }
 
@@ -5376,7 +5388,7 @@ hero-btn {
 }
 
 .form-contact label {
-    font-size: 14px
+    font-size: 18px
 }
 
 .form-contact .form-group {
@@ -6876,4 +6888,13 @@ del {
 .img-blur {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.fa-ul {
+    margin-left: 1.5rem;
 }
