@@ -2173,14 +2173,14 @@ hero-btn {
 }
 
 .testimonial-padding {
-    padding-top: 100px;
-    padding-bottom: 85px
+    padding-top: 120px;
+    padding-bottom: 110px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .testimonial-padding {
-        padding-top: 100px;
-    padding-bottom: 85px
+        padding-top: 120px;
+        padding-bottom: 110px
     }
 }
 
@@ -2588,8 +2588,10 @@ hero-btn {
 
 .header-area .header-top {
     border-bottom: 1px solid #2d2d2d;
-    background-color: #1da0eb;
+    background-color: #000080;
     color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .header-area .header-top .header-info-left ul li {
@@ -3198,7 +3200,8 @@ hero-btn {
 .our-info-area .single-info .info-caption {
     padding-left: 20px
 }
-.our-info-area .single-info .info-caption h2{
+
+.our-info-area .single-info .info-caption h2 {
     font-size: 3rem;
 }
 
@@ -5370,7 +5373,6 @@ hero-btn {
     margin-bottom: 0;
     font-size: 20px;
     color: #2a2a2a;
-    font-weight: bold;
 }
 
 .contact-info .media-body h3 a:hover {
@@ -6858,7 +6860,7 @@ del {
 }
 
 .choice-section {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .hovereffect {
