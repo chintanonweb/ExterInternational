@@ -4,7 +4,8 @@
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
+    $number = $_REQUEST['phoneno'];
+    $website = $_REQUEST['website'];
     $cmessage = $_REQUEST['message'];
 
     $headers = "From: $from";
@@ -25,6 +26,7 @@
 	$body .= "</td></tr></thead><tbody><tr>";
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+	$body .= "<td style='border:none;'><strong>Website:</strong> {$website}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";

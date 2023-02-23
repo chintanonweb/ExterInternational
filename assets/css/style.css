@@ -6861,6 +6861,22 @@ del {
 
 .choice-section {
     font-size: 30px;
+    line-height: 50px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .choice-section {
+        font-size: 22px;
+        line-height: 50px;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .choice-section {
+        font-size: 22px;
+        line-height: 50px;
+        padding-left: 20px;
+    }
 }
 
 .hovereffect {
@@ -6900,3 +6916,22 @@ del {
 .fa-ul {
     margin-left: 1.5rem;
 }
+
+#google_translate_element select {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 8px;
+    border: 1px solid #999999;
+}
+
+/* .goog-logo-link,
+.goog-te-gadget span {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+    font-size: 0;
+} */
