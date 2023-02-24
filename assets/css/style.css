@@ -3058,6 +3058,14 @@ hero-btn {
     line-height: 1
 }
 
+.contact-title-wrapper h1 {
+    margin-top: 20px;
+    font-size: 95px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area .hero-cap h2 {
         font-size: 50px
@@ -5460,18 +5468,18 @@ hero-btn {
 }
 
 .contact-section {
-    padding: 80px 0 10px
+    padding: 40px 0 10px
 }
 
 @media (max-width: 991px) {
     .contact-section {
-        padding: 50px 0 10px
+        padding: 40px 0 10px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .contact-section {
-        padding: 50px 0 10px
+        padding: 40px 0 10px
     }
 }
 
